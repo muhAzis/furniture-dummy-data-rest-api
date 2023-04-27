@@ -1,7 +1,10 @@
 const express = require('express');
+const cors = require('cors');
 const { response, homeResponse } = require('./response');
 const dFurniture = require('./data');
 const app = express();
+
+app.use(cors({ origin: true }));
 
 app.get('/', (req, res) => {
   homeResponse(200, res);
