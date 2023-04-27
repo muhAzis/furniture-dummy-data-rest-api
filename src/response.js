@@ -10,14 +10,14 @@ const homeResponse = (status, res) => {
     maintainer: 'Muhamad Abdul Azis',
     source: 'https://github.com/muhAzis/furniture-dummy-data-rest-api',
     endpoints: {
-      all_product: 'GET, http://localhost:5000/data',
+      all_product: 'GET, https://github.com/muhAzis/furniture-dummy-data-rest-api/data',
       by_type: {
-        request: 'GET, http://localhost:5000/data/type/:type',
-        example: 'GET, http://localhost:5000/data/type/chair',
+        request: 'GET, https://github.com/muhAzis/furniture-dummy-data-rest-api/data/type/:type',
+        example: 'GET, https://github.com/muhAzis/furniture-dummy-data-rest-api/data/type/chair',
       },
       by_product_id: {
-        request: 'GET, http://localhost:5000/data/product/:id',
-        example: 'GET, http://localhost:5000/data/product/frntrdcr2',
+        request: 'GET, https://github.com/muhAzis/furniture-dummy-data-rest-api/data/product/:id',
+        example: 'GET, https://github.com/muhAzis/furniture-dummy-data-rest-api/data/product/frntrdcr2',
       },
     },
   });
