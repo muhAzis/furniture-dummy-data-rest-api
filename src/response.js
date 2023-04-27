@@ -10,14 +10,14 @@ const homeResponse = (status, res) => {
     maintainer: 'Muhamad Abdul Azis',
     source: 'https://github.com/muhAzis/furniture-dummy-data-rest-api',
     endpoints: {
-      all_product: 'GET, https://github.com/muhAzis/furniture-dummy-data-rest-api/data',
+      all_product: 'GET, https://furniture-dummy-data-api.vercel.app/data',
       by_type: {
-        request: 'GET, https://github.com/muhAzis/furniture-dummy-data-rest-api/data/type/:type',
-        example: 'GET, https://github.com/muhAzis/furniture-dummy-data-rest-api/data/type/chair',
+        request: 'GET, https://furniture-dummy-data-api.vercel.app/data/type/:type',
+        example: 'GET, https://furniture-dummy-data-api.vercel.app/data/type/chair',
       },
       by_product_id: {
-        request: 'GET, https://github.com/muhAzis/furniture-dummy-data-rest-api/data/product/:id',
-        example: 'GET, https://github.com/muhAzis/furniture-dummy-data-rest-api/data/product/frntrdcr2',
+        request: 'GET, https://furniture-dummy-data-api.vercel.app/data/product/:id',
+        example: 'GET, https://furniture-dummy-data-api.vercel.app/data/product/frntrdcr2',
       },
     },
   });
